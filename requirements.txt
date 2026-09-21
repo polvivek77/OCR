@@ -1,0 +1,21 @@
+streamlit>=1.36
+numpy>=1.26,<2.0
+pillow>=10.0,<11
+httpx>=0.27,<1
+opencv-python>=4.9
+pandas>=2.0
+pdf2image>=1.17
+pymupdf>=1.24
+paddleocr>=2.7
+# Install exactly one PaddlePaddle runtime.  Do not install the CPU package
+# alongside paddlepaddle-gpu: both own the `paddle` namespace on Windows.
+surya-ocr>=0.6
+python-doctr>=0.9
+pytesseract>=0.3.10
+easyocr>=1.7
+pdfplumber>=0.11
+camelot-py>=0.11
+docling>=1.7
+marker-pdf>=0.2
+torch>=2.2
+torchvision>=0.17
